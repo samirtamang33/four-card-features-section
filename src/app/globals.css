@@ -35,9 +35,12 @@ body {
 
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   font-family: var(--font-family);
   font-size: var(--font-size-body);
-  background: var(--white);
+  background: #fafafa;
   color: var(--grey-500);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

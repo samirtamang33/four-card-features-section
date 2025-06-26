@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Card from "./components/Card";
 
 export default function Home() {
   return (
@@ -17,7 +18,9 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className={styles.cardsWrapper}></div>
+        <div className={styles.cardsWrapper}>
+          <Card title="Test" description="test2" icon="icon" />
+        </div>
       </main>
     </div>
   );
