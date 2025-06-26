@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: auto;
+  margin: 1rem;
   gap: var(--spacing-500);
 }
 
@@ -48,7 +48,6 @@
   letter-spacing: var(--text-preset-4-letter-spacing);
   color: var(--grey-500);
   text-align: center;
-  max-width: 600px;
 }
 
 .cardsWrapper {
@@ -57,4 +56,20 @@
   align-items: center;
   justify-content: center;
   gap: var(--spacing-400);
+}
+
+/* Tablet (min-width: 768px) */
+@media (min-width: 768px) {
+  .main {
+    margin: 2rem;
+    gap: var(--spacing-500);
+  }
+  .titleWrapper {
+    max-width: 33.75rem; /* 540px */
+  }
+  .cardsWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-400);
+  }
 }

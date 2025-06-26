@@ -35,13 +35,13 @@
   --text-preset-4-font-weight: 400;
   --text-preset-4-font-size: 0.9375rem; /* 15px */
   --text-preset-4-line-height: 1.4;
-  --text-preset-4-letter-spacing: 0rem; /* 0px */
+  --text-preset-4-letter-spacing: 0.006rem; /* 0.1px */
 
   --text-preset-5-font-family: "Poppins", sans-serif;
   --text-preset-5-font-weight: 400;
   --text-preset-5-font-size: 0.8125rem; /* 13px */
   --text-preset-5-line-height: 1.6;
-  --text-preset-5-letter-spacing: 0rem; /* 0px */
+  --text-preset-5-letter-spacing: 0.0056rem; /* 0.09px */
 
   --text-preset-5-dmsans-font-family: "DM Sans", sans-serif;
   --text-preset-5-dmsans-font-weight: 400;

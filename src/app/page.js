@@ -32,40 +32,43 @@ export default function Home() {
           borderColor="var(--cyan)"
         />
         <Card
-          title="Supervisor"
-          description="Monitors activity to identify project roadblocks"
+          title="Tam Builder"
+          description="Scans our talent network to create the optimal team for your project"
           icon={
             <Image
-              src="/assets/images/icon-supervisor.svg"
+              src="/assets/images/icon-team-builder.svg"
               alt="Sample Icon"
               width={64}
               height={64}
             />
           }
+          borderColor={"var(--red)"}
         />
         <Card
-          title="Supervisor"
-          description="Monitors activity to identify project roadblocks"
+          title="Karma"
+          description="Regularly evaluates our talent to ensure quality"
           icon={
             <Image
-              src="/assets/images/icon-supervisor.svg"
+              src="/assets/images/icon-karma.svg"
               alt="Sample Icon"
               width={64}
               height={64}
             />
           }
+          borderColor={"var(--orange)"}
         />
         <Card
-          title="Supervisor"
-          description="Monitors activity to identify project roadblocks"
+          title="Calculator"
+          description="Uses data from past projects to provide better delivery estimates"
           icon={
             <Image
-              src="/assets/images/icon-supervisor.svg"
+              src="/assets/images/icon-calculator.svg"
               alt="Sample Icon"
               width={64}
               height={64}
             />
           }
+          borderColor={"var(--blue)"}
         />
       </div>
     </main>
