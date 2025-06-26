@@ -4,7 +4,7 @@ import Card from "./components/Card";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={styles.main} role="main">
       <div className={styles.titleWrapper}>
         <div className={styles.title}>
           <h1 className={styles.titleLite}>Reliable, efficient delivery</h1>

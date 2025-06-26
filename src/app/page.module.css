@@ -63,8 +63,8 @@
   transition: all 0.3s ease;
 }
 
-/* Tablet (min-width: 768px) */
-@media (min-width: 768px) {
+/* Tablet (min-width: 48rem) */
+@media (min-width: 48rem) {
   .titleWrapper {
     max-width: 33.75rem;
     width: 100%;
