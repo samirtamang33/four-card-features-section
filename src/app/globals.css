@@ -12,12 +12,42 @@
   --grey-400: hsl(212, 6%, 44%);
   --white: hsl(0, 0%, 100%);
 
-  /* Typography */
-  --font-family: "Poppins", sans-serif;
-  --font-size-body: 15px;
-  --font-weight-light: 200;
-  --font-weight-regular: 400;
-  --font-weight-semibold: 600;
+  /* Typography Presets */
+  --text-preset-1-font-family: "Poppins", sans-serif;
+  --text-preset-1-font-weight: 600;
+  --text-preset-1-font-size: 1.5rem; /* 24px */
+  --text-preset-1-line-height: 1.4;
+  --text-preset-1-letter-spacing: 0.0156rem; /* 0.25px */
+
+  --text-preset-2-font-family: "Poppins", sans-serif;
+  --text-preset-2-font-weight: 200;
+  --text-preset-2-font-size: 1.5rem; /* 24px */
+  --text-preset-2-line-height: 1.4;
+  --text-preset-2-letter-spacing: 0.0156rem; /* 0.25px */
+
+  --text-preset-3-font-family: "Poppins", sans-serif;
+  --text-preset-3-font-weight: 600;
+  --text-preset-3-font-size: 1.25rem; /* 20px */
+  --text-preset-3-line-height: 1.35;
+  --text-preset-3-letter-spacing: 0rem; /* 0px */
+
+  --text-preset-4-font-family: "Poppins", sans-serif;
+  --text-preset-4-font-weight: 400;
+  --text-preset-4-font-size: 0.9375rem; /* 15px */
+  --text-preset-4-line-height: 1.4;
+  --text-preset-4-letter-spacing: 0rem; /* 0px */
+
+  --text-preset-5-font-family: "Poppins", sans-serif;
+  --text-preset-5-font-weight: 400;
+  --text-preset-5-font-size: 0.8125rem; /* 13px */
+  --text-preset-5-line-height: 1.6;
+  --text-preset-5-letter-spacing: 0rem; /* 0px */
+
+  --text-preset-5-dmsans-font-family: "DM Sans", sans-serif;
+  --text-preset-5-dmsans-font-weight: 400;
+  --text-preset-5-dmsans-font-size: 1rem; /* 16px */
+  --text-preset-5-dmsans-line-height: 1.125; /* 18px/16px */
+  --text-preset-5-dmsans-letter-spacing: 0rem; /* 0px */
 
   /* Spacing (rem units) */
   --spacing-500: 2.5rem; /* 40px */
@@ -38,8 +68,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: var(--font-family);
-  font-size: var(--font-size-body);
+  font-family: "Poppins", sans-serif;
   background: #fafafa;
   color: var(--grey-500);
   -webkit-font-smoothing: antialiased;
