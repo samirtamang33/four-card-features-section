@@ -19,6 +19,7 @@ export default function Home() {
       </div>
       <div className={styles.cardsWrapper}>
         <Card
+          className={styles.card1}
           title="Supervisor"
           description="Monitors activity to identify project roadblocks"
           icon={
@@ -32,6 +33,7 @@ export default function Home() {
           borderColor="var(--cyan)"
         />
         <Card
+          className={styles.card2}
           title="Tam Builder"
           description="Scans our talent network to create the optimal team for your project"
           icon={
@@ -45,6 +47,7 @@ export default function Home() {
           borderColor={"var(--red)"}
         />
         <Card
+          className={styles.card3}
           title="Karma"
           description="Regularly evaluates our talent to ensure quality"
           icon={
@@ -58,6 +61,7 @@ export default function Home() {
           borderColor={"var(--orange)"}
         />
         <Card
+          className={styles.card4}
           title="Calculator"
           description="Uses data from past projects to provide better delivery estimates"
           icon={

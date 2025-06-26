@@ -15,6 +15,7 @@
   width: 100%;
   max-width: 316px;
   gap: var(--spacing-200);
+  transition: max-width 0.3s ease;
 }
 
 .title {
@@ -31,6 +32,7 @@
   list-style: var(--text-preset-2-line-height);
   letter-spacing: var(--text-preset-2-letter-spacing);
   color: var(--grey-500);
+  transition: font-size 0.3s ease;
 }
 
 .title .titleBold {
@@ -39,6 +41,7 @@
   line-height: var(--text-preset-1-line-height);
   letter-spacing: var(--text-preset-1-letter-spacing);
   color: var(--grey-500);
+  transition: font-size 0.3s ease;
 }
 
 .description {
@@ -48,6 +51,7 @@
   letter-spacing: var(--text-preset-4-letter-spacing);
   color: var(--grey-500);
   text-align: center;
+  transition: font-size 0.3s ease;
 }
 
 .cardsWrapper {
@@ -56,20 +60,43 @@
   align-items: center;
   justify-content: center;
   gap: var(--spacing-400);
+  transition: all 0.3s ease;
 }
 
 /* Tablet (min-width: 768px) */
 @media (min-width: 768px) {
-  .main {
-    margin: 2rem;
-    gap: var(--spacing-500);
-  }
   .titleWrapper {
-    max-width: 33.75rem; /* 540px */
+    max-width: 33.75rem;
+    width: 100%;
   }
+
+  .title .titleLite {
+    font-size: 2.5rem;
+  }
+  .title .titleBold {
+    font-size: 2.5rem;
+  }
+
   .cardsWrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
     gap: var(--spacing-400);
+  }
+
+  .card1,
+  .card4 {
+    grid-column: 1 / span 2; /* Span both columns */
+    justify-self: center; /* Center the card */
+  }
+
+  .card2 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .card3 {
+    grid-row: 2;
+    grid-column: 2;
   }
 }
